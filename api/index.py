@@ -42,3 +42,5 @@ def chat(req: ChatRequest):
         return {"reply": reply}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
